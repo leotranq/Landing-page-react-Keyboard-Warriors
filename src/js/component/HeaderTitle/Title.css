@@ -1,0 +1,20 @@
+.Container{
+    background-color: black;
+    padding: 0%;
+}
+
+.Slogan, .Title{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-top:2%;
+}
+
+
+strong{
+    color: #FBB040;
+    
+}
+
