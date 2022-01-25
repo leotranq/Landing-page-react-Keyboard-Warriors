@@ -1,13 +1,16 @@
 import React from "react";
-// import * as PropTypes from "Prop-types";
+import "../Form/Form.css";
 
-const FormInputs = () => {
+const Form = () => {
 	return (
 		<div class="container form">
 			<form class="row g-3 needs-validation" novalidate>
+				<div className="row">
+					<h2 className="form_title">Contact us!</h2>
+				</div>
 				<div class="col-md-4">
 					<label for="validationCustom01" class="form-label">
-						First name
+						First name:
 					</label>
 					<input
 						type="text"
@@ -15,22 +18,19 @@ const FormInputs = () => {
 						id="validationCustom01"
 						required
 					/>
-					<div class="valid-feedback">Looks good!</div>
 				</div>
 				<div class="col-md-4">
 					<label for="validationCustom02" class="form-label">
-						Last name
+						Last name:
 					</label>
 					<input
 						type="text"
 						class="form-control"
 						id="validationCustom02"
-						value="Otto"
 						required
 					/>
-					<div class="valid-feedback">Looks good!</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<label for="validationCustom04" class="form-label">
 						Interest:
 					</label>
@@ -39,20 +39,16 @@ const FormInputs = () => {
 						id="validationCustom04"
 						required>
 						<option selected disabled value="">
-							Select your interest
+							Select your interest:
 						</option>
-
 						<option value="website">Websites</option>
 						<option value="smathphone_app">Smarthphone App</option>
 						<option value="cyber_security">Cyber security</option>
 					</select>
-					<div class="invalid-feedback">
-						Please select a valid state.
-					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<label for="validationCustom05" class="form-label">
-						Movile contact
+						Movile contact:
 					</label>
 					<input
 						type="text"
@@ -60,9 +56,17 @@ const FormInputs = () => {
 						id="validationCustom05 telephone"
 						required
 					/>
-					<div class="invalid-feedback">
-						Please provide a valid movile.
-					</div>
+				</div>
+				<div class="col-md-8">
+					<label for="validationCustom05" class="form-label">
+						Email:
+					</label>
+					<input
+						type="email"
+						class="form-control email"
+						id="validationCustom05 email"
+						required
+					/>
 				</div>
 				<div class="col-12">
 					<div class="form-check">
@@ -74,15 +78,19 @@ const FormInputs = () => {
 							required
 						/>
 						<label class="form-check-label" for="invalidCheck">
-							Agree to terms and conditions
+							Agree to
+							<a
+								href="https://www.youtube.com/watch?v=989-7xsRLR4&t=40s"
+								target="_blank"
+								className="linkcondition">
+								{" "}
+								terms and conditions
+							</a>
 						</label>
-						<div class="invalid-feedback">
-							You must agree before submitting.
-						</div>
 					</div>
 				</div>
 				<div class="col-12">
-					<button class="btn btn-primary" type="submit">
+					<button class="btn_form" type="submit">
 						Submit form
 					</button>
 				</div>
@@ -91,4 +99,4 @@ const FormInputs = () => {
 	);
 };
 
-export default FormInputs;
+export default Form;

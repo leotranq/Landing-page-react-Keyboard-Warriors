@@ -1,13 +1,11 @@
 import React from "react";
-import FormTitle from "../component/Form/FormTitle.jsx";
-import FormInputs from "../component/Form/FormInputs.jsx";
-import Footer from "../component/Footer.jsx";
+import Form from "../component/Form/Form.jsx";
+import Footer from "../component/Footer/Footer.jsx";
 
 const Home = () => {
 	return (
 		<>
-			<FormTitle title="¡Contacta con nosotros!" />
-			<FormInputs />
+			<Form />
 			<Footer />
 		</>
 	);
