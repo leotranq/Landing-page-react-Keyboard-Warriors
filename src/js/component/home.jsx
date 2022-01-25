@@ -1,7 +1,7 @@
 import React from "react";
 import ContentCards from "./ContentCards/Content.jsx";
-import NavBarHeader from "./NavbarHeader/NavBarHeader.jsx";
-import NavBar from "./NavbarTop/NavBar/NavBar.jsx";
+import NavBarHeader from "./HeaderTitle/HeaderTitle.jsx";
+import NavBar from "./NavBarTop/NavBar.jsx";
 
 const Home = () => {
 	return (
