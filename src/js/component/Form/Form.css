@@ -1,20 +1,18 @@
-#formWindow{
-    width: 100%;
-}
+
 .form_title{
     color: 
-    #FBB040;
+    #3bd412;
     text-align: center;
     margin-bottom: 1%;
     
 }
 
 .form{
-    width: 35rem;
+    max-width: 27rem;
     margin: auto;
     margin-top: 7%;
     margin-bottom: 1%;
-    box-shadow: 1% 1% 1% #FBB040;
+    box-shadow: 1% 1% 1% #3bd412;
     padding: 1%;
     font-size: 1em;
     border-radius: 2rem;
@@ -23,7 +21,7 @@
 }
 
     
-.btn_form {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)
+.btn_form {background-image: linear-gradient(to right, #3bd412 0%, #3bd412  51%, #3bd412  100%)
 }
 .btn_form {
        margin: 1%;
@@ -49,3 +47,6 @@
 .form-label{
     padding-left: 1%;
 }
+.inputforms{
+    margin-left: 2%;
+    width: 100%;}

@@ -4,7 +4,7 @@ const NavBar = () => {
 	return (
 		<div className="row">
 			<div className="NavBar">
-				<nav className="navbar navbar-expand-lg">
+				<nav className="navbar navbar-expand-md">
 					<div className="container-fluid">
 						<button
 							className="navbar-toggler"

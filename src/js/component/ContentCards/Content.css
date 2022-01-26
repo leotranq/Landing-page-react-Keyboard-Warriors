@@ -1,5 +1,5 @@
 #Cards_Body{
-
+    
     display: flex;
     justify-content: center;
     
@@ -10,7 +10,7 @@
 }
 .cardOne, .cardTwo, .cardThree, .cardFour{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );;
-    box-shadow: 1rem 1rem 2rem #FBB040;
+    box-shadow: 1rem 1rem 2rem #3bd412;
     color: white;
 
     max-width: 15rem;
