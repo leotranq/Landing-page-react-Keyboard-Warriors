@@ -1,20 +1,24 @@
 .Container{
     background-color: black;
-    padding: 0%;
+    margin-bottom: 5%;
+    height: 600px;
+    font-size: 300px;
 }
 
 .Slogan, .Title{
     text-align: center;
     color: white;
-    justify-content: center;
-    padding: 2%;
-    padding-bottom: 2%;
-    padding-top:2%;
+
 }
-
-
-strong{
-    color: #FBB040;
+.Title{
+    padding: 10%;
+    padding-bottom: 0%;
     
+}
+.titleLetters{
+    font-size: 30%;
+}
+.strongTitle{
+    color: #FBB040;  
 }
 
