@@ -1,9 +1,11 @@
-
+.titlelleter{
+    font-size: 10vw;
+}
 
 .Slogan, .Title{
     text-align: center;
     color: white;
-    justify-content: center;
+    
     padding: 2%;
     padding-bottom: 2%;
     padding-top:2%;

@@ -3,7 +3,7 @@ import "../ContentCards/Content.css";
 const ContentCards = () => {
 	return (
 		<>
-			<div className="Cards_Body">
+			<div className="row" id="Cards_Body">
 				<div className="cardOne" id="Carta1">
 					<div className="Card_Content">
 						<h5 className="card-title">Profesionalidad</h5>
@@ -18,7 +18,7 @@ const ContentCards = () => {
 						href="https://i.giphy.com/media/0lGElDgkbXFRKXsAro/giphy.webp"
 						target="_blank">
 						<input
-							className="btn_form"
+							className="btn_form firstboton"
 							type="button"
 							value="Saber más"
 						/>
@@ -38,7 +38,7 @@ const ContentCards = () => {
 						href="https://www.youtube.com/watch?v=V9dDS-vl95Y"
 						target="_blank">
 						<input
-							className="btn_form"
+							className="btn_form secdbtn"
 							type="button"
 							value="Saber más"
 						/>
@@ -54,17 +54,19 @@ const ContentCards = () => {
 							al 100% la esencia de tu idea.
 						</p>
 					</div>
-					<a
-						href="https://i.giphy.com/media/13FrpeVH09Zrb2/giphy.webp"
-						target="_blank">
-						<input
-							className="btn_form"
-							type="button"
-							value="Saber más"
-						/>
-					</a>
+					<div className="boton">
+						<a
+							href="https://i.giphy.com/media/13FrpeVH09Zrb2/giphy.webp"
+							target="_blank">
+							<input
+								className="btn_form thbtn"
+								type="button"
+								value="Saber más"
+							/>
+						</a>
+					</div>
 				</div>
-				<div className="cardTwo">
+				<div className="cardFour">
 					<div className="Card_Content">
 						<h5 className="card-title">Innovación</h5>
 						<p className="card-text">
@@ -76,7 +78,7 @@ const ContentCards = () => {
 						href="https://reygif.com/media/7/y-asi-se-invento-la-rueda-92143.gif"
 						target="_blank">
 						<input
-							className="btn_form"
+							className="btn_form fthbtn"
 							type="button"
 							value="Saber más"
 						/>

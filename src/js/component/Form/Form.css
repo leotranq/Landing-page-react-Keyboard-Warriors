@@ -12,7 +12,7 @@
 .form{
     width: 35rem;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-bottom: 1%;
     box-shadow: 1% 1% 1% #FBB040;
     padding: 1%;
@@ -39,7 +39,6 @@
      }
 
 .btn_form:hover {
-       background-position: right center; /* change the direction of the change here */
        color: #fff;
        text-decoration: none;
      }

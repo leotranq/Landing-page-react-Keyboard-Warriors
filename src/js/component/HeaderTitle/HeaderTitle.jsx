@@ -5,15 +5,15 @@ const HeaderTitle = () => {
 		<div>
 			<div className="Container">
 				<div className="Title">
-					<h1>Keyboard Warriors</h1>
+					<h1 className="titlelleter">Keyboard Warriors</h1>
 				</div>
 
 				<div className="Slogan">
-					<h6>
+					<h4>
 						Inventamos tu <strong>pasado</strong>, trabajamos tu{" "}
 						<strong>presente</strong> y desarrollamos tu{" "}
 						<strong> futuro.</strong>
-					</h6>
+					</h4>
 				</div>
 			</div>
 		</div>

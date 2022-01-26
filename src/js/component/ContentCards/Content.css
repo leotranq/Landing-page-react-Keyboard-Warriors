@@ -1,48 +1,55 @@
+#Cards_Body{
 
-.cardOne, .cardTwo, .cardThree, .cardFour{
-    background-color: #2F3C4F;
-    max-width: 15rem;
-    border-radius: 2rem;
-    font: white;
-    margin: auto;
-    padding-left: 1%;
-    height: 20rem;
-    box-shadow: 1rem 1rem 2rem #FBB040;
-    color: white;
-    text-align: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    transition: all .2s ease-in-out;
-    margin-top: 5%;
-}
-.cardOne:hover, .cardTwo:hover, .cardThree:hover, .cardFour:hover{
-    transform: scale(1.1);
-}
-div{
-    border: 1pt solid red;
-}
-
-.card-title{
-    color: #FBB040 ;
-    padding-top: 10%;
-}
-
-.Cards_Body{
-    height: 100%;
     display: flex;
     justify-content: center;
     
 }
-.Card_Content{
-    height: 80%;
-    width: 90%;
+.card-title{
+    color: #FBB040 ;
+    padding-top: 10%;
+}
+.cardOne, .cardTwo, .cardThree, .cardFour{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );;
+    box-shadow: 1rem 1rem 2rem #FBB040;
+    color: white;
 
-}
-.cardOne{
-    margin-right: 2rem;
-    margin-left: 10rem; 
+    max-width: 15rem;
+    height: 20rem;
+    border-radius: 2rem;
+   
+    padding-left: 1%;
     
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+    transition: all .2s ease-in-out;
+   
 }
+.cardOne:hover, .cardTwo:hover, .cardThree:hover, .cardFour:hover{
+    transform: scale(1.1);
+}
+
+.boton{
+    width: 100%;
+    height: 45%;
+    vertical-align: sub;
+}
+.firstboton{
+margin-top: 15%;
+}
+.secdbtn{
+    margin-top: 37%;
+}
+.thbtn{
+    margin-top: 37%;
+}
+.fthbtn{
+    margin-top: 47%;
+}
+
 
 
 
