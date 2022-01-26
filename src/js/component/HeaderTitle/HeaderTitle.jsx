@@ -11,8 +11,8 @@ const HeaderTitle = () => {
 				<div className="Slogan">
 					<h6>
 						Inventamos tu <strong>pasado</strong>, trabajamos tu{" "}
-						<strong>presente</strong> y desarrollammos tu{" "}
-						<strong> Futuro</strong>
+						<strong>presente</strong> y desarrollamos tu{" "}
+						<strong> futuro.</strong>
 					</h6>
 				</div>
 			</div>

@@ -29,6 +29,7 @@ const NavBar = () => {
 							</li>
 							<li className="nav-item">
 								<a
+									target="_blank"
 									className="nav-link"
 									href="https://github.com/leotranq/Landing-page-react-Keyboard-Warriors/tree/footer">
 									Projects

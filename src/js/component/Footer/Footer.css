@@ -1,16 +1,14 @@
-.row_footer{
-    padding-top: 5rem;
-   background-color: 
-   #2F3C4F;
-   height: 12em;
-   width: 100%;   
+
+div{border:1pt solid red;
+}
+footer{
+    width: 100%;
+    height: 10rem;
+   background-color: #2F3C4F;
 
 }
-.className{
-    justify-content: center;
+.redes{
+   padding-top: 2%;
     margin: auto;
-    color: white;
-}
-.col-xl-12 form{
-    padding-left: 112px;
+   text-align:center;
 }

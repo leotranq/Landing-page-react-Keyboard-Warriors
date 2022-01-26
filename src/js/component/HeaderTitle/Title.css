@@ -1,7 +1,4 @@
-.Container{
-    background-color: black;
-    padding: 0%;
-}
+
 
 .Slogan, .Title{
     text-align: center;
@@ -14,7 +11,6 @@
 
 
 strong{
-    color: #FBB040;
-    
+    color: #FBB040; 
 }
 
