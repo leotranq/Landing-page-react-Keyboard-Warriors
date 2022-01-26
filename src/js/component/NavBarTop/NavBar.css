@@ -1,12 +1,14 @@
 .NavBar{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );;
-    color: white;
+   
 }
 .nav-link{
     color: #FBB040;
     font-size: 1.2rem;
 }
-
+.nav-link:hover{
+  color: white;
+}
 .navbar-nav{
   display: flex;
   margin: auto;
