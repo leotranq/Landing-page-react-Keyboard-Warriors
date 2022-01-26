@@ -21,11 +21,12 @@
 }
 
     
-.btn_form {background-image: linear-gradient(to right, #3bd412 0%, #3bd412  51%, #3bd412  100%)
-}
+
+
 .btn_form {
+    background-image: linear-gradient(to right, #45aa2c 0%, #45aa2c  51%, #45aa2c  100%);
        margin: 1%;
-       padding: 1% 1%;
+       padding: 2% 2% 2% 2%;
        text-align: center;
        text-transform: uppercase;
        transition: 0.5s;
