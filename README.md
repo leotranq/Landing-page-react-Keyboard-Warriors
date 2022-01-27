@@ -1,29 +1,17 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+This is a Landing page Made betwenn two people, it is made to practice our abilities with react.js HTML and CSS to practice the basics of a webpage and adding animation to it. We use a "Matrix" theme that we thought that is a cool thing to do because of the raining code. 
+Also as a theme we focus on describinng a "coding" company called "The keyboard Warriors" that we desigh and created a content just to show design capabilities.
+As well we got some easter eggs hidden in the webpage. "it can be funny"
+##### please install the web package by writing in the console the next line:
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
-
-##### Download the boilerplate using git
-
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
-
-##### and install the npm package:
-```
 $ npm install
-```
+``
 
-## Start coding!
+#Now you can start coding.
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+##In order to have a preview open a port 3000 on the console by writing the next line:
+- $ npm run start`
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
+This is Just a landing page, it content url links that will take you to a real one.
 Add more files into your, `./src/js/components` or styles folder as you need them.
 
 ## Publish your website!
