@@ -1,30 +1,15 @@
-/* .NavBar{
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );;
-   
-}
-.nav-link{
-    color: #3bd412;
-    font-size: 1.2rem;
-}
-.nav-link:hover{
-  color: white;
-}
-.navbar-nav{
-  display: flex;
-  margin: auto;
-} */
 .nav{
   margin: 0pt;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );;
   height: 5rem;
   justify-content: center;
 }
-.active{
-  padding-top:  30%;
-  vertical-align: middle;
+.nav-item{
+ 
+ padding-top: 1%;
   color: white;
   font-size: 1.2rem;
 }
-.active:hover{
+.nav-item:hover{
   color:white;
 }
