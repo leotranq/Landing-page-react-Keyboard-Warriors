@@ -1,0 +1,18 @@
+.titlelleter{
+    font-size: 5rem;
+}
+
+.Slogan, .Title{
+    text-align: center;
+    color: white;
+    
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-top:2%;
+}
+
+
+strong{
+    color: #3bd412; 
+}
+
