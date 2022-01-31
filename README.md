@@ -1,4 +1,4 @@
-This is a Landing page Made betwenn two people, it is made to practice our abilities with react.js HTML and CSS to practice the basics of a webpage and adding animation to it. We use a "Matrix" theme that we thought that is a cool thing to do because of the raining code. 
+This is a Landing page Made betwen two people, it is made to practice our abilities with react.js HTML and CSS to practice the basics of a webpage and adding animation to it. We use a "Matrix" theme that we thought that is a cool thing to do because of the raining code. 
 Also as a theme we focus on describinng a "coding" company called "The keyboard Warriors" that we desigh and created a content just to show design capabilities.
 As well we got some easter eggs hidden in the webpage. "it can be funny"
 ##### please install the web package by writing in the console the next line:
